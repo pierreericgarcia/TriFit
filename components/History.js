@@ -60,9 +60,11 @@ class History extends Component {
   render() {
     const { entries } = this.props
     const { ready } = this.state
+
     if (ready === false) {
       return <AppLoading />
     }
+
     return (
       <UdaciFitnessCalendar
         items={entries}
@@ -72,6 +74,7 @@ class History extends Component {
     )
   }
 }
+
 const styles = StyleSheet.create({
   item: {
     backgroundColor: white,
@@ -95,11 +98,14 @@ const styles = StyleSheet.create({
     paddingBottom: 20
   }
 })
+
+
 function mapStateToProps (entries) {
   return {
     entries
   }
 }
+
 export default connect(
   mapStateToProps,
 )(History)

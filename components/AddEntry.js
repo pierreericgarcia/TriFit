@@ -7,7 +7,7 @@ import {
   clearLocalNotification,
   setLocalNotification
 } from '../utils/helpers'
-import UdaciSlider from './UdaciSliders'
+import UdaciSlider from './UdaciSlider'
 import UdaciSteppers from './UdaciSteppers'
 import DateHeader from './DateHeader'
 import { Ionicons } from '@expo/vector-icons'
