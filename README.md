@@ -10,6 +10,8 @@
 
 ## Key Features
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pierreericgarcia/TriFit.svg)](https://greenkeeper.io/)
+
 * All your training data in one app
 * Check your performances
 * Track your altitude and velocity
